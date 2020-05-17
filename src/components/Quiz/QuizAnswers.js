@@ -20,7 +20,7 @@ const QuizAnswers = () => {
                             <div className="mini-column">{d.wins} Wins. </div>
                             <div>Last Won: {d.last} </div>
                         </div>
-                        <div className="column-2">{d.team}</div>
+                        <div className="column-2 hidden" data-team={d.team}>{d.team}</div>
                     </div>
                 )
             })}
